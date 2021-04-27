@@ -68,7 +68,7 @@ section
 }
 section img
 {
-  position; absolute;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -96,9 +96,9 @@ section img#mountain_front
 #btn
 {
   text-decoration: none;
-  display; inline-block;
+  display: inline-block;
   padding: 8px 30px;
-  border-radius; 40px;
+  border-radius: 40px;
   background: #fff;
   color: #2b1055;
   font-size; 1.5em;
