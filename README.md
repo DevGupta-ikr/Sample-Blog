@@ -2,4 +2,4 @@
 Sample Blog 
 
 
-https://krazy-coder4.github.io/Sample-Blog/
+https://devgupta-ikr.github.io/Sample-Blog/
