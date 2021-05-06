@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:300,400,500,600,700,800,900&display=swap');
 *
 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  scroll-behaviour: smooth;
+  scroll-behavior: smooth;
 }
 body
 {
@@ -53,7 +53,7 @@ header ul li a
   border-radius: 20px; 
 }
 header ul li a:hover,
-header ul li a.active
+header ul li a.active 
 {
   background: #fff;
   color: #2b1055;
@@ -86,7 +86,7 @@ section img
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: screen;
+  object-fit: cover;
   pointer-events: none;
 }
 section img#moon
@@ -99,13 +99,12 @@ section img#mountain_front
 }
 #text
 {
-  position: relative;
+  position: absolute;
   right: -350px;
   color: #fff;
   white-space: nowrap;
   font-size: 7.5vw;
-  z-index: 9;
-  
+  z-index: 9;  
 }
 #btn
 {
